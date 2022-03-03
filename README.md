@@ -7,6 +7,11 @@ EMNLP 2020
 
 \* denotes equal contribution
 
+## Docker
+```shell
+$ docker run -p 8888:8888 -p 8889:8889 alanpross/openie6 -d
+```
+
 ## Installation
 ```
 conda create -n openie6 python=3.6

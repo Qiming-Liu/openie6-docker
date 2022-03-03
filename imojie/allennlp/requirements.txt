@@ -11,9 +11,6 @@
 # an older version of PyTorch you'll also need to use an older version of allennlp.
 torch>=1.1.0 ### FIXME: Changed from 1.2.0
 
-# Parameter parsing (but not on Windows).
-jsonnet>=0.10.0 ; sys.platform != 'win32'
-
 # Adds an @overrides decorator for better documentation and error checking when using subclasses.
 overrides
 
